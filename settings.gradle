@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "MyRouter"
+include ':launcher'
+include ':settings'
+include ':app'
+include ':myrouter-annotation'
+include ':myrouter-processor'
+include ':myrouter-api'
+include ':calculate'
+include ':common'
