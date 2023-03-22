@@ -6,7 +6,7 @@
 
 app 模块修改 build.gradle 文件
 
-```groovy
+```gradle
 android {
     defaultConfig {
         javaCompileOptions {
